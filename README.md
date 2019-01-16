@@ -1,4 +1,3 @@
-```
 # Psychic Game
 This app is an interactive game that runs on the web browser.  
 
@@ -13,7 +12,7 @@ Enjoy!
 
 ## Getting Started
 Click [PLAY](https://seeseexiong.github.io/Psychic-Game) to get started! 
-```
+
 
 ## Built With
 * JavaScript - Updates HTML and CSS each time a letter is clicked
