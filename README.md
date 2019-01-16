@@ -1,7 +1,7 @@
 # Psychic Game
 This app is an interactive game that runs on the web browser.  
 
-This is a letter guessing game.
+This is an alphabet letter guessing game.
 The computer will think of a letter 'a' through 'z' and you will have to guess it correctly.
 For each guess, use the keyboard to type the letter.
 Each time you guess correctly you gets a point.
