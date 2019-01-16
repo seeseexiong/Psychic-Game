@@ -1,8 +1,10 @@
 # Psychic Game
-This app is an interactive game that runs the web browswer.  
-In this game, you have to guess what letter the computer is thinking about.
-You can type any letter from 'a' through 'z' for each guess.
-Each time you guess right you get a point.
+This app is an interactive game that runs on the web browser.  
+
+This is a letter guessing game.
+The computer will think of a letter 'a' through 'z' and you will have to guess it correctly.
+For each guess, use the keyboard to type the letter.
+Each time you guess correctly you gets a point.
 If you guess wrong 9 times, you lose a point.
 Each time you win or lose a point, the computer will think of a new letter.
 
