@@ -10,7 +10,7 @@ Each time you win or lose a point, the computer will think of a new letter.
 
 Enjoy!
 
-[alt screenshot](https://github.com/seeseexiong/Psychic-Game/blob/master/assets/images/PsychicGame.JPG)
+![alt screenshot](https://github.com/seeseexiong/Psychic-Game/blob/master/assets/images/PsychicGame.JPG)
 
 ## Getting Started
 Click [PLAY](https://seeseexiong.github.io/Psychic-Game) to get started! 
