@@ -4,24 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Psychic-Game</title>
-
-    
-
+    <title>Psychic 2</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- link to my external css file -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div>
-        <h1>The Psychic Game</h1>
-        <h3>Guess what I'm thinking of</h3>
-        <h3 id="userchoice-text">You choose: Nothing yet...</h3>
-        <!-- <h3 id="computerchoice-text">Computer choose: Nothing yet...</h3> -->
-        <h3 id="wins-text">Wins: 0</h3>
-        <h3 id="losses-text">Losses: 0</h3>
-        <h3 id="gLeft-text">Guesses left: 9</h3>
-        <h3 id="gsFar-text">Your Guesses so far:</h3>
-    </div>
+    <!-- Bootstrap jombotron -->
+    <div class="jumbotron">
+        <h1 class="display-4">The Psychic Game</h1>
+        <h5>Guess what alphabet letter I'm thinking of...</h5>
+        <hr class="my-4">
 
+        <div class="container">
+            <div class="row">
+                <div class="col center">
+                    <h3>Wins: <spam id="win-text">0</spam></h3>
+                </div>
+                <div class="col center">
+                    <h3>Losses: <spam id="loss-text">0</spam></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col center">
+                    <h3>Number of Guesses Left: <spam id="gLeft-text">9</spam></h3>
+                </div>
+            </div>
+            <div class="row guessesBox">
+                <div class="col">
+                    <p>Your Guesses so far: <h1 id="gSFar-text"></h1></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bootstrap JS, Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- link to my external JS file -->
     <script src="assets/javascript/game.js"></script>
-    
 </body>
 </html>
