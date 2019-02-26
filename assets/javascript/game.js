@@ -25,11 +25,17 @@ function randomLetter() {
     console.log("Computer Pick: " + computerPick);
 }
 
-//MAIN PROCESS STARTS ===========================================================================
-//1.) When the game start, you have 9 rounds, thecomputer pick a letter
-if (roundLeft = 9) {
+//reset guess left to 9, computer pick again, guess so far is empty
+function reset() {
+    roundLeft = 9;
     randomLetter();
+    guessSoFar = "";
+    updateGSF();
 }
+
+//MAIN PROCESS STARTS ===========================================================================
+//1.) When the game start with default of 9 rounds, computer pick a letter, empty guesses so far
+reset();
 
 
 //EVENT
@@ -50,10 +56,7 @@ document.onkeyup = function(event) {
             //if keyPressed is same as computerPick then win score add 1, round left go back to 9, computer pick a new letter
             if ( keyPressed === computerPick) {
                 winScore++;
-                roundLeft = 9;
-                randomLetter();
-                guessSoFar = "";
-                updateGSF();
+                reset()
             }
             //or else, round left minus 1
             else {
@@ -61,10 +64,7 @@ document.onkeyup = function(event) {
                 //if round left reaches 0, then user lose one score. Everything goes back to default
                 if (roundLeft === 0) {
                     lossScore++;
-                    guessSoFar = "";
-                    updateGSF();
-                    randomLetter();
-                    roundLeft = 9;
+                    reset()
                 }
             }
         }
